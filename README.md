@@ -1,8 +1,3 @@
 # my-forecasting-toolkit
-My own implementations to popular time series forecasting algorithms
 
-Implemented: Temporal Conv Nets (TCN), N-Beats
-
-Used: XgBoost, ES, ARIMA, Naive methods
-
-TODO: compare models in M3 dataset
+This repo holds my implementations of two deep forecasting methods ([TCN](https://unit8.com/resources/temporal-convolutional-networks-and-forecasting/), and [N-BEATS](https://arxiv.org/pdf/1905.10437.pdf)), and their performance comparisons againts XgBoost, Prophet, ES, ARIMA, and naive methods on [M3 competition](https://forecasters.org/resources/time-series-data/m3-competition/) and [Energy demand](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather?select=weather_features.csv) datasets. In addition, some time series specific EDA present in [avocado](https://www.kaggle.com/datasets/neuromusic/avocado-prices) and energy demand notebooks. Both models show parallel results to the ones reported in original papers.
