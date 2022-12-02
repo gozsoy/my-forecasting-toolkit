@@ -49,3 +49,6 @@ def mae(y_true, y_pred):
 
 def mape(y_true, y_pred):
     return mean_absolute_percentage_error(y_true, y_pred)
+
+def smape(y_true, y_pred):
+    return (200/len(y_true))*np.sum(np.abs(y_true - y_pred)/(np.abs(y_true) + np.abs(y_pred)))
